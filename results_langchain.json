@@ -1,0 +1,43 @@
+{
+  "framework": "Langchain",
+  "total_time": 15.128618955612183,
+  "steps": [
+    {
+      "step": "Load Configuration",
+      "duration": 0.001318216323852539,
+      "details": "",
+      "timestamp": 1762711633.3512228
+    },
+    {
+      "step": "Initialize OpenAI",
+      "duration": 0.25173449516296387,
+      "details": "",
+      "timestamp": 1762711633.6029773
+    },
+    {
+      "step": "Initialize MCP Client",
+      "duration": 7.978278398513794,
+      "details": "",
+      "timestamp": 1762711641.5812776
+    },
+    {
+      "step": "List MCP Tools",
+      "duration": 0.4289076328277588,
+      "details": "Found 16 tools",
+      "timestamp": 1762711642.010207
+    },
+    {
+      "step": "MCP Server Query",
+      "duration": 3.866514205932617,
+      "details": "Tool: pods_list",
+      "timestamp": 1762711645.8767598
+    },
+    {
+      "step": "Execute LLM Chain",
+      "duration": 2.601714849472046,
+      "details": "",
+      "timestamp": 1762711648.4784973
+    }
+  ],
+  "step_count": 6
+}

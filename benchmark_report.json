@@ -1,0 +1,223 @@
+{
+  "timestamp": "2025-11-09 21:37:30",
+  "results": [
+    {
+      "framework": "CrewAI",
+      "success": true,
+      "total_time": 32.097771406173706,
+      "return_code": 0,
+      "detailed_results": {
+        "framework": "CrewAI",
+        "total_time": 22.5724458694458,
+        "steps": [
+          {
+            "step": "Load Configuration",
+            "duration": 0.0012891292572021484,
+            "details": "",
+            "timestamp": 1762711482.570464
+          },
+          {
+            "step": "Initialize OpenAI",
+            "duration": 0.19992446899414062,
+            "details": "",
+            "timestamp": 1762711482.770403
+          },
+          {
+            "step": "Initialize MCP Client",
+            "duration": 11.265851020812988,
+            "details": "Found 16 tools",
+            "timestamp": 1762711494.036278
+          },
+          {
+            "step": "MCP Server Query",
+            "duration": 5.048868656158447,
+            "details": "Tool: pods_list",
+            "timestamp": 1762711499.085185
+          },
+          {
+            "step": "Create Agent",
+            "duration": 0.056302547454833984,
+            "details": "",
+            "timestamp": 1762711499.1415257
+          },
+          {
+            "step": "Create Task",
+            "duration": 0.0001220703125,
+            "details": "",
+            "timestamp": 1762711499.1416652
+          },
+          {
+            "step": "Create Crew",
+            "duration": 0.0009829998016357422,
+            "details": "",
+            "timestamp": 1762711499.1426563
+          },
+          {
+            "step": "Execute Crew Task",
+            "duration": 5.998898506164551,
+            "details": "",
+            "timestamp": 1762711505.141568
+          }
+        ],
+        "step_count": 8
+      },
+      "error": null
+    },
+    {
+      "framework": "LangGraph",
+      "success": true,
+      "total_time": 92.33094954490662,
+      "return_code": 0,
+      "detailed_results": {
+        "framework": "LangGraph",
+        "total_time": 91.02338743209839,
+        "steps": [
+          {
+            "step": "Load Configuration",
+            "duration": 0.0013427734375,
+            "details": "",
+            "timestamp": 1762711512.6384907
+          },
+          {
+            "step": "Initialize OpenAI",
+            "duration": 0.24397969245910645,
+            "details": "",
+            "timestamp": 1762711512.8824792
+          },
+          {
+            "step": "Initialize MCP Client",
+            "duration": 11.338709831237793,
+            "details": "Found 16 tools",
+            "timestamp": 1762711524.2212043
+          },
+          {
+            "step": "Build & Compile Graph",
+            "duration": 0.009095191955566406,
+            "details": "",
+            "timestamp": 1762711524.2303436
+          },
+          {
+            "step": "MCP Server Query (Node)",
+            "duration": 4.190399885177612,
+            "details": "Tool: pods_list",
+            "timestamp": 1762711528.4231083
+          },
+          {
+            "step": "LLM Processing (Node)",
+            "duration": 75.23541712760925,
+            "details": "",
+            "timestamp": 1762711603.6597793
+          },
+          {
+            "step": "Execute Graph",
+            "duration": 79.4301528930664,
+            "details": "",
+            "timestamp": 1762711603.6605153
+          }
+        ],
+        "step_count": 7
+      },
+      "error": null
+    },
+    {
+      "framework": "DSPy",
+      "success": true,
+      "total_time": 24.38976502418518,
+      "return_code": 0,
+      "detailed_results": {
+        "framework": "DSPy",
+        "total_time": 20.44475030899048,
+        "steps": [
+          {
+            "step": "Load Configuration",
+            "duration": 0.0014653205871582031,
+            "details": "",
+            "timestamp": 1762711609.3282983
+          },
+          {
+            "step": "Initialize DSPy + OpenAI",
+            "duration": 0.0001423358917236328,
+            "details": "",
+            "timestamp": 1762711609.3284492
+          },
+          {
+            "step": "Initialize MCP Client",
+            "duration": 8.618723154067993,
+            "details": "Found 16 tools",
+            "timestamp": 1762711617.9471796
+          },
+          {
+            "step": "MCP Server Query",
+            "duration": 6.988214731216431,
+            "details": "Tool: pods_list",
+            "timestamp": 1762711624.935432
+          },
+          {
+            "step": "Initialize DSPy Module",
+            "duration": 0.0020220279693603516,
+            "details": "",
+            "timestamp": 1762711624.9374764
+          },
+          {
+            "step": "Execute DSPy Query",
+            "duration": 4.8340654373168945,
+            "details": "",
+            "timestamp": 1762711629.7715573
+          }
+        ],
+        "step_count": 6
+      },
+      "error": null
+    },
+    {
+      "framework": "Langchain",
+      "success": true,
+      "total_time": 16.417481422424316,
+      "return_code": 0,
+      "detailed_results": {
+        "framework": "Langchain",
+        "total_time": 15.128618955612183,
+        "steps": [
+          {
+            "step": "Load Configuration",
+            "duration": 0.001318216323852539,
+            "details": "",
+            "timestamp": 1762711633.3512228
+          },
+          {
+            "step": "Initialize OpenAI",
+            "duration": 0.25173449516296387,
+            "details": "",
+            "timestamp": 1762711633.6029773
+          },
+          {
+            "step": "Initialize MCP Client",
+            "duration": 7.978278398513794,
+            "details": "",
+            "timestamp": 1762711641.5812776
+          },
+          {
+            "step": "List MCP Tools",
+            "duration": 0.4289076328277588,
+            "details": "Found 16 tools",
+            "timestamp": 1762711642.010207
+          },
+          {
+            "step": "MCP Server Query",
+            "duration": 3.866514205932617,
+            "details": "Tool: pods_list",
+            "timestamp": 1762711645.8767598
+          },
+          {
+            "step": "Execute LLM Chain",
+            "duration": 2.601714849472046,
+            "details": "",
+            "timestamp": 1762711648.4784973
+          }
+        ],
+        "step_count": 6
+      },
+      "error": null
+    }
+  ]
+}

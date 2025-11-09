@@ -1,0 +1,19 @@
+# Configuration for AI Framework Benchmarking
+
+# MCP Server Configuration
+mcp_server:
+  url: "https://mcp.n3s.ai"
+  protocol: "jsonrpc_v2"
+
+# OpenAI Configuration
+openai:
+  api_key: "sk-***"
+  model: "gpt-4o-mini"
+  temperature: 0.7
+
+# Benchmark Configuration
+benchmark:
+  test_prompt: "give me pods name"
+  timeout: 60  # seconds
+  log_steps: true
+

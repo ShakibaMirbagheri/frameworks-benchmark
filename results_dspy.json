@@ -1,0 +1,43 @@
+{
+  "framework": "DSPy",
+  "total_time": 20.44475030899048,
+  "steps": [
+    {
+      "step": "Load Configuration",
+      "duration": 0.0014653205871582031,
+      "details": "",
+      "timestamp": 1762711609.3282983
+    },
+    {
+      "step": "Initialize DSPy + OpenAI",
+      "duration": 0.0001423358917236328,
+      "details": "",
+      "timestamp": 1762711609.3284492
+    },
+    {
+      "step": "Initialize MCP Client",
+      "duration": 8.618723154067993,
+      "details": "Found 16 tools",
+      "timestamp": 1762711617.9471796
+    },
+    {
+      "step": "MCP Server Query",
+      "duration": 6.988214731216431,
+      "details": "Tool: pods_list",
+      "timestamp": 1762711624.935432
+    },
+    {
+      "step": "Initialize DSPy Module",
+      "duration": 0.0020220279693603516,
+      "details": "",
+      "timestamp": 1762711624.9374764
+    },
+    {
+      "step": "Execute DSPy Query",
+      "duration": 4.8340654373168945,
+      "details": "",
+      "timestamp": 1762711629.7715573
+    }
+  ],
+  "step_count": 6
+}

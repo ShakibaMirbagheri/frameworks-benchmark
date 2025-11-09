@@ -1,0 +1,49 @@
+{
+  "framework": "LangGraph",
+  "total_time": 91.02338743209839,
+  "steps": [
+    {
+      "step": "Load Configuration",
+      "duration": 0.0013427734375,
+      "details": "",
+      "timestamp": 1762711512.6384907
+    },
+    {
+      "step": "Initialize OpenAI",
+      "duration": 0.24397969245910645,
+      "details": "",
+      "timestamp": 1762711512.8824792
+    },
+    {
+      "step": "Initialize MCP Client",
+      "duration": 11.338709831237793,
+      "details": "Found 16 tools",
+      "timestamp": 1762711524.2212043
+    },
+    {
+      "step": "Build & Compile Graph",
+      "duration": 0.009095191955566406,
+      "details": "",
+      "timestamp": 1762711524.2303436
+    },
+    {
+      "step": "MCP Server Query (Node)",
+      "duration": 4.190399885177612,
+      "details": "Tool: pods_list",
+      "timestamp": 1762711528.4231083
+    },
+    {
+      "step": "LLM Processing (Node)",
+      "duration": 75.23541712760925,
+      "details": "",
+      "timestamp": 1762711603.6597793
+    },
+    {
+      "step": "Execute Graph",
+      "duration": 79.4301528930664,
+      "details": "",
+      "timestamp": 1762711603.6605153
+    }
+  ],
+  "step_count": 7
+}

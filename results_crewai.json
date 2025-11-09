@@ -1,0 +1,55 @@
+{
+  "framework": "CrewAI",
+  "total_time": 22.5724458694458,
+  "steps": [
+    {
+      "step": "Load Configuration",
+      "duration": 0.0012891292572021484,
+      "details": "",
+      "timestamp": 1762711482.570464
+    },
+    {
+      "step": "Initialize OpenAI",
+      "duration": 0.19992446899414062,
+      "details": "",
+      "timestamp": 1762711482.770403
+    },
+    {
+      "step": "Initialize MCP Client",
+      "duration": 11.265851020812988,
+      "details": "Found 16 tools",
+      "timestamp": 1762711494.036278
+    },
+    {
+      "step": "MCP Server Query",
+      "duration": 5.048868656158447,
+      "details": "Tool: pods_list",
+      "timestamp": 1762711499.085185
+    },
+    {
+      "step": "Create Agent",
+      "duration": 0.056302547454833984,
+      "details": "",
+      "timestamp": 1762711499.1415257
+    },
+    {
+      "step": "Create Task",
+      "duration": 0.0001220703125,
+      "details": "",
+      "timestamp": 1762711499.1416652
+    },
+    {
+      "step": "Create Crew",
+      "duration": 0.0009829998016357422,
+      "details": "",
+      "timestamp": 1762711499.1426563
+    },
+    {
+      "step": "Execute Crew Task",
+      "duration": 5.998898506164551,
+      "details": "",
+      "timestamp": 1762711505.141568
+    }
+  ],
+  "step_count": 8
+}
